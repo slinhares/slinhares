@@ -1,0 +1,50 @@
+@charset "UTF-8";
+body {
+    margin: 0;
+    background-color: #E4DBD0;
+}
+wrapper {
+    width: 1366px;
+    margin: auto;
+    display: block;
+    background-color: #AD8763;
+}
+nav {
+    background-color: #5C735E;
+}
+ul {
+    padding: 0;
+    margin: 0;
+}
+ul a li {
+    display: inline-block;
+    padding: 10px 20px;
+    color: white;
+    font-family: "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", "DejaVu Sans", Verdana, sans-serif;
+}
+ul a li:hover {
+    background-color: #CC7779;
+}
+main {
+    height: 650px;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+footer {
+    padding: 10px 20px;
+    color: #E4DBD0;
+}
+header {
+    padding: 10px 20px;
+    background-color: #5C735E;
+    background-image: url(kimws.jpg);
+}
+img {
+    width: 1074px;
+    margin-left: 132px;
+}
+iframe {
+    padding: 10px;
+    border-color: #E4DBD0;
+    margin-bottom: 20px;
+}
