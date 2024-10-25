@@ -61,6 +61,8 @@ img {
     margin-left: 132px;
     width: auto;
     height: 498px;
+    text-align: center;
+    padding-left: 239px;
 }
 iframe {
     padding: 10px;
@@ -74,6 +76,7 @@ iframe {
 }
 footer div {
     text-align: center;
+    color: #E4DBD0;
 }
 footer p {
     color: #E4DBD0;
