@@ -2,6 +2,8 @@
 body {
     margin: 0;
     background-color: #E4DBD0;
+    width: auto;
+    height: auto;
 }
 wrapper {
     width: 1366px;
@@ -11,6 +13,7 @@ wrapper {
 }
 nav {
     background-color: #5C735E;
+    font-family: Baskerville, "Palatino Linotype", Palatino, "Century Schoolbook L", "Times New Roman", serif;
 }
 ul {
     padding: 0;
@@ -26,25 +29,58 @@ ul a li:hover {
     background-color: #CC7779;
 }
 main {
-    height: 650px;
     background-repeat: no-repeat;
     background-size: cover;
+}
+button {
+    margin-left: 100px;
+}
+divslide {
+}
+h2 {
+    color: #E4DBD0;
+    font-family: Baskerville, "Palatino Linotype", Palatino, "Century Schoolbook L", "Times New Roman", serif;
+    text-align: center;
+}
+h1 {
+    color: #E4DBD0;
+    font-family: Baskerville, "Palatino Linotype", Palatino, "Century Schoolbook L", "Times New Roman", serif;
+    margin-left: 20px;
 }
 footer {
     padding: 10px 20px;
     color: #E4DBD0;
+    background-color: #5C735E;
 }
 header {
     padding: 10px 20px;
     background-color: #5C735E;
-    background-image: url(kimws.jpg);
+    background-image: url(kimtour.jpg);
 }
 img {
-    width: 1074px;
     margin-left: 132px;
+    width: auto;
+    height: 498px;
 }
 iframe {
     padding: 10px;
     border-color: #E4DBD0;
     margin-bottom: 20px;
+}
+.shadows-into-light-regular {
+  font-family: "Shadows Into Light", cursive;
+  font-weight: 400;
+  font-style: normal;
+}
+footer div {
+    text-align: center;
+}
+footer p {
+    color: #E4DBD0;
+    font-family: Baskerville, "Palatino Linotype", Palatino, "Century Schoolbook L", "Times New Roman", serif;
+}
+div  {
+    display: inline-block;
+    width: 99px;
+    height: 99px;
 }
