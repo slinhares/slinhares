@@ -33,9 +33,12 @@ main {
     background-size: cover;
 }
 button {
-    margin-left: 100px;
+    margin-left: 150px;
+    text-align: center;
 }
 divslide {
+	margin-left: 150px;
+    text-align: center;
 }
 h2 {
     color: #E4DBD0;
@@ -58,7 +61,7 @@ header {
     background-image: url(kimtour.jpg);
 }
 img {
-    margin-left: 132px;
+    margin-left: auto;
     width: auto;
     height: 498px;
     text-align: center;
@@ -73,16 +76,47 @@ iframe {
   font-weight: 400;
   font-style: normal;
 }
-footer div {
-    text-align: center;
-    color: #E4DBD0;
-}
+
 footer p {
     color: #E4DBD0;
     font-family: Baskerville, "Palatino Linotype", Palatino, "Century Schoolbook L", "Times New Roman", serif;
 }
 div  {
     display: inline-block;
-    width: 99px;
-    height: 99px;
+    width: 150px;
+    height: 150px;
+	 text-align: center;
+}
+.instagram-media {
+    display: inline-block;
+    border-color: #5C735E;
+    border-radius: 15px;
+	 text-align: center;
+}
+.socialicons a {
+    text-decoration: none;
+    padding: 10px;
+    margin: 10px;
+    border-radius: 50%;
+    background-color: rgba(243, 230, 161, 0.53);
+}
+.fa-instagram {
+  background: #125688;
+  color: #E4DBD0;
+}
+.fa-youtube {
+  background: #bb0000;
+  color: #E4DBD0;
+}
+
+.fa-facebook {
+  background: #3B5998;
+  color: #E4DBD0;
+}
+.fa-twitter {
+  background: #55ACEE;
+  color: #E4DBD0;
+}
+.fa:hover {
+    opacity: 0.7;
 }
