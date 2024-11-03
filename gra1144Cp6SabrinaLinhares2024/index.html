@@ -10,16 +10,21 @@ body {
     background-color: #ccc;
 }
 header {
+    border-bottom: thick ridge;
+    color: #000000;
 }
 wrapper {
     width: 1366px;
+    height: 1000px;
     margin: auto;
     display: block;
     background-color: #fff;
 }
 main {
-    width: auto;
+	height: auto;
     background-color: white;
+    width: auto;
+    position: relative;
 }
 section {
     width: 50%;
@@ -34,6 +39,7 @@ section {
 
 .apparel {
     position: relative;
+    display: inline-block;
 }
 nav button {
     background-color: white;
@@ -43,7 +49,15 @@ nav button {
     border-color: white;
 }
 nav button:hover  {
-    border-color: black;
+    border-color: lightgrey;
+	border-width: thick;
+	margin-right: 4px;
+    margin-left: 7px;
+	margin-bottom: -10px;
+    padding-top: 0px;
+    padding-right: 0px;
+    padding-bottom: 0px;
+    padding-left: 0px;
 }
 div {
     position: absolute;
@@ -80,6 +94,10 @@ div {
     border-width: thin;
     border-color: gray;
 }
+.checked {
+color: darkorange;
+display: inline-block;
+	}
 </style>
 <script type="text/javascript">
 function MM_swapImgRestore() { //v3.0
@@ -110,32 +128,55 @@ function MM_showHideLayers() { //v9.0
     if (obj.style) { obj=obj.style; v=(v=='show')?'visible':(v=='hide')?'hidden':v; }
     obj.visibility=v; }
 }
+	
 </script>
 </head>
 
 <body onLoad="MM_preloadImages('fezoom2.jpg','feback1yellowgreen.jpg','feback1pink.jpg')">
 <wrapper>
   <header>
-   <img src="adidaslogo.png" alt="adidasnlogo">
+   <img src="adidaslogo.png" alt="adidasnlogo" width="192" height="136">
 	</header>
 
 <main>
   <section class="description">
-  <h1>Basic sleeveless shirt </h1>
-<h3>Colors
+	  <h1>Women's • Sportswear</h1>
+  <h2>Classic sleeveless shirt </h2>
+<span class="fa fa-star checked"></span>
+<span class="fa fa-star checked"></span>
+<span class="fa fa-star checked"></span>
+<span class="fa fa-star checked"></span>
+<span class="fa fa-star checked"></span>
+<h3>Colors:
   <nav>
     <button class="white" onClick="MM_showHideLayers('white shirt','','show','Yellow Green Shirt','','hide','Pink Shirt','','hide')"></button>
     <button class="yellowgreen" onClick="MM_showHideLayers('white shirt','','hide','Yellow Green Shirt','','show','Pink Shirt','','hide')"></button>
     <button class="pink" onClick="MM_showHideLayers('white shirt','','hide','Yellow Green Shirt','','hide','Pink Shirt','','show')"></button>
-    Content for New nav Tag Goes Here</nav>
+    </nav>
  </h3> 
+	 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+	  <h5>
+Promo codes will not apply to this product.
+</h5>
+<h4> Sizes:
+  <button class="size">XS</button>
+  <button class="size">S</button>
+  <button class="size">M</button>
+  <button class="size">L</button>
+  <button class="size">XL</button>
+	
+  </h4><br>
+<h4>Description of the product:</h4><p> Discover the ultimate in everyday comfort with our sleeveless shirt made from premium Egyptian cotton. Soft and breathable, this shirt is perfect for warm weather and active lifestyles!</p>
+<h4>  <button class="size">Add to the bag</button></h4>
 </section>
+
+	
   <section class="apparel">
       <div style="visibility: visible"><a href="#" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('white shirt','','fezoom2.jpg',1)"><img src="fezoom1.jpg" alt="white shirt" width="599" height="800" id="white shirt"></a></div>
     <div><a href="#" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('Yellow Green Shirt','','feback1yellowgreen.jpg',1)"><img src="fefrontyellowgreen.jpg" alt="Yellow Green Shirt" width="599" height="800" id="Yellow Green Shirt"></a></div>
     <div><a href="#" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('Pink Shirt','','feback1pink.jpg',1)"><img src="fefrontpink.jpg" alt="Pink Shirt" width="599" height="800" id="Pink Shirt"></a></div>
-    Content for New section Tag Goes Here</section>
-Content for New main Tag Goes Here</main>
+  </section>
+</main>
 </wrapper>
 <footer><p>© 2024, Sabrina Linhares. This is a fictitious web page created solely for the purpose of education and training. All products and people associated with this web page are also fictitious. Any resemblance to real brands, products, or people is purely coincidental. Information provided about the product is also fictitious and should not be construed to be representative of actual products on the market in a similar product category.</p></footer>
 </body>
