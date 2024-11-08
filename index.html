@@ -1,23 +1,44 @@
 <!doctype html>
 <html>
 <head>
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Bree+Serif&display=swap" rel="stylesheet">
 <meta charset="UTF-8">
 <title>Adidas | Sabrina Linhares 2024</title>
 <style type="text/css">
+	
+	.bree-serif-regular {
+  font-family: "Bree Serif", serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
 body {
     padding: 0;
     margin: 0;
     background-color: #ccc;
+	font-family: "Bree Serif", serif;
+}
+
+header {
+    border-bottom: thick ridge;
+    color: #000000;
+    height: 146px;
 }
 wrapper {
     width: 1366px;
+    height: 750px;
     margin: auto;
     display: block;
     background-color: #fff;
 }
 main {
-    width: auto;
+	height: auto;
     background-color: white;
+    width: auto;
+    position: relative;
+	font-family: "Bree Serif", serif;
 }
 section {
     width: 50%;
@@ -28,20 +49,40 @@ section {
     -moz-box-sizing: border-box;
     box-sizing: border-box;
     vertical-align: top;
+	font-family: "Bree Serif", serif;
 }
+	.footer {
+    background-color: white;
+    border-top-width: thick;
+    border-top-color: black;
+	}
 
 .apparel {
     position: relative;
+    display: inline-block;
+    border-radius: 30px;
+	font-family: "Bree Serif", serif;
 }
 nav button {
-    background-color: white;
+    
     background-repeat: no-repeat;
     background-size: contain;
-    border-width: thick;
-    border-color: white;
+    border: thick solid white; 
+	margin-right: 4px;
+    margin-left: 7px;
+    margin-bottom: -10px;
+    padding-top: 0px;
+    padding-right: 0px;
+    padding-bottom: 0px;
+    padding-left: 0px;
+    font-family: "Bree Serif", serif;
+   
 }
 nav button:hover  {
-    border-color: black;
+    border-left: thick solid;
+    border-right: thick solid;
+    border-bottom: thick solid;
+    border-top: thick solid #878787;  
 }
 div {
     position: absolute;
@@ -56,8 +97,7 @@ div {
     border-radius: 25px;
     margin: 8px;
     background-color: #dc8ef9;
-    border-width: thin;
-    border-color: gray;
+
 }
 .yellowgreen {
     width: 50px;
@@ -66,18 +106,28 @@ div {
     margin: 8px;
     display: inline-block;
     background-color: #97ca6f;
-    border-width: thin;
-    border-color: gray;
-}
+	}
 .white {
     width: 50px;
     height: 50px;
     border-radius: 25px;
     margin: 8px;
     display: inline-block;
-    border-width: thin;
-    border-color: gray;
+  
 }
+.checked {
+color: darkorange;
+display: inline-block;
+	}
+
+.price {
+    color: #968D8D;
+	display: inline;
+}
+	.realprice {
+		color: red;
+		display: inline;
+	}
 </style>
 <script type="text/javascript">
 function MM_swapImgRestore() { //v3.0
@@ -114,29 +164,51 @@ function MM_showHideLayers() { //v9.0
 <body onLoad="MM_preloadImages('fezoom2.jpg','feback1yellowgreen.jpg','feback1pink.jpg')">
 <wrapper>
   <header>
-    <nav>
-     
-    </nav>
-  Content for New header Tag Goes Here</header>
+   <img src="adidaslogo.png" alt="adidasnlogo" width="192" height="136">
+	</header>
 
 <main>
   <section class="description">
-  <h1>Basic sleeveless shirt </h1>
-<h3>Colors
+	  <h1>Women's • Sportswear</h1>
+  <h2>Classic Sleeveless Shirt </h2>
+<span class="fa fa-star checked"></span>
+<span class="fa fa-star checked"></span>
+<span class="fa fa-star checked"></span>
+<span class="fa fa-star checked"></span>
+<span class="fa fa-star checked"></span>
+<h3>Colors:
   <nav>
     <button class="white" onClick="MM_showHideLayers('white shirt','','show','Yellow Green Shirt','','hide','Pink Shirt','','hide')"></button>
     <button class="yellowgreen" onClick="MM_showHideLayers('white shirt','','hide','Yellow Green Shirt','','show','Pink Shirt','','hide')"></button>
     <button class="pink" onClick="MM_showHideLayers('white shirt','','hide','Yellow Green Shirt','','hide','Pink Shirt','','show')"></button>
-    Content for New nav Tag Goes Here</nav>
+    </nav>
  </h3> 
+	 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+	 <p class="price"><del>$45</del><h4><ins class="realprice">$30</ins></h4></p>
+	  <h6>
+Promo codes will not apply to this product.
+</h6>
+<h4> Sizes:
+  <button class="size">XS</button>
+  <button class="size">S</button>
+  <button class="size">M</button>
+  <button class="size">L</button>
+  <button class="size">XL</button>
+	
+  </h4>
+	<h4>  <button class="size">Add to the bag</button></h4>
+<h4>Description of the product:</h4><p> Discover the ultimate in everyday comfort with our sleeveless shirt made from premium Egyptian cotton. Soft and breathable, this shirt is perfect for warm weather and active lifestyles!</p>
+
 </section>
+
+	
   <section class="apparel">
-      <div style="visibility: visible"><a href="#" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('white shirt','','fezoom2.jpg',1)"><img src="fezoom1.jpg" alt="white shirt" width="599" height="800" id="white shirt"></a></div>
-    <div><a href="#" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('Yellow Green Shirt','','feback1yellowgreen.jpg',1)"><img src="fefrontyellowgreen.jpg" alt="Yellow Green Shirt" width="599" height="800" id="Yellow Green Shirt"></a></div>
-    <div><a href="#" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('Pink Shirt','','feback1pink.jpg',1)"><img src="fefrontpink.jpg" alt="Pink Shirt" width="599" height="800" id="Pink Shirt"></a></div>
-    Content for New section Tag Goes Here</section>
-Content for New main Tag Goes Here</main>
-</wrapper>
+      <div style="visibility: visible"><a href="#" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('white shirt','','fezoom2.jpg',1)"><img src="fezoom1.jpg" alt="white shirt" width="413" height="551" id="white shirt"></a></div>
+    <div><a href="#" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('Yellow Green Shirt','','feback1yellowgreen.jpg',1)"><img src="fefrontyellowgreen.jpg" alt="Yellow Green Shirt" width="413" height="551" id="Yellow Green Shirt"></a></div>
+    <div><a href="#" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('Pink Shirt','','feback1pink.jpg',1)"><img src="fefrontpink.jpg" alt="Pink Shirt" width="413" height="551" id="Pink Shirt"></a></div>
+  </section>
+</main>
 <footer><p>© 2024, Sabrina Linhares. This is a fictitious web page created solely for the purpose of education and training. All products and people associated with this web page are also fictitious. Any resemblance to real brands, products, or people is purely coincidental. Information provided about the product is also fictitious and should not be construed to be representative of actual products on the market in a similar product category.</p></footer>
+</wrapper>	
 </body>
 </html>
