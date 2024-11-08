@@ -64,23 +64,25 @@ section {
 	font-family: "Bree Serif", serif;
 }
 nav button {
-    background-color: white;
+    
     background-repeat: no-repeat;
     background-size: contain;
-    border-width: thick;
-    border-color: white;
-}
-nav button:hover  {
-    border-color: lightgrey;
-	border-width: thick;
+    border: thick solid white; 
 	margin-right: 4px;
     margin-left: 7px;
-	margin-bottom: -10px;
+    margin-bottom: -10px;
     padding-top: 0px;
     padding-right: 0px;
     padding-bottom: 0px;
     padding-left: 0px;
-	font-family: "Bree Serif", serif;
+    font-family: "Bree Serif", serif;
+   
+}
+nav button:hover  {
+    border-left: thick solid;
+    border-right: thick solid;
+    border-bottom: thick solid;
+    border-top: thick solid #878787;  
 }
 div {
     position: absolute;
@@ -95,8 +97,7 @@ div {
     border-radius: 25px;
     margin: 8px;
     background-color: #dc8ef9;
-    border-width: thin;
-    border-color: gray;
+
 }
 .yellowgreen {
     width: 50px;
@@ -105,17 +106,14 @@ div {
     margin: 8px;
     display: inline-block;
     background-color: #97ca6f;
-    border-width: thin;
-    border-color: gray;
-}
+	}
 .white {
     width: 50px;
     height: 50px;
     border-radius: 25px;
     margin: 8px;
     display: inline-block;
-    border-width: thin;
-    border-color: gray;
+  
 }
 .checked {
 color: darkorange;
