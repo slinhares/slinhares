@@ -1,0 +1,143 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Come To Brazil | Sabrina Linhares 2024</title>
+<style>
+body {
+    background-image: url(RioSunset.jpeg);
+    background-color: #000000;
+    background-repeat: no-repeat;
+    background-position: center top;
+    background-size: cover;
+    margin: 0;
+    background-position: center 100px;
+	}
+
+
+header {
+    height: 100px;
+    background-color: rgba(255,255,255,0.75);
+}
+wrapper {
+    width: 1200px;
+    margin: auto;
+    display: block;
+    background-color: rgba(0,0,0,0.50);
+}
+footer {
+    width: 100%;
+    background-color: rgba(5,105,59,0.72);
+    position: fixed;
+    height: 100px;
+    bottom: 0px;
+    color: rgba(248,248,248,1.00);
+}
+#Tabs1 ul li img {
+    width: auto;
+    margin: 8px;
+    height: 50px;
+}
+#Tabs1 ul li {
+    padding-top: 8px;
+    text-align: center;
+}
+#Tabs1 ul {
+    background-color: transparent;
+    border: none;
+    background-image: none;
+}
+#Tabs1 {
+    background-image: none;
+    border: none;
+    background-color: rgba(5,105,59,0.72);
+}
+#tabs-1, #tabs-2, #tabs-3, #tabs-4, #tabs-5 {
+    background-color: rgba(5,105,59,0.72);
+}
+input ,select{
+    width: 97%;
+    border-radius: 15px;
+    padding-top: 20px;
+    padding-right: 20px;
+    padding-left: 40px;
+    padding-bottom: 20px;
+    border: medium solid rgba(17,0,156,1.00);
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    margin: 8px 0;
+    box-sizing: border-box;
+}
+.travelto {
+    background-image: url(mag.png);
+    background-position: 10px center;
+    background-repeat: no-repeat;
+    background-size: 18px auto;
+}
+.date  ,select,.submit{
+    width: 48%;
+    margin-right: 16px;
+}
+.submit {
+    background-color: rgba(0,1,136,1.00);
+    color: rgba(252,252,252,1.00);
+}
+</style>
+<link href="jQueryAssets/jquery.ui.core.min.css" rel="stylesheet" type="text/css">
+<link href="jQueryAssets/jquery.ui.theme.min.css" rel="stylesheet" type="text/css">
+<link href="jQueryAssets/jquery.ui.tabs.min.css" rel="stylesheet" type="text/css">
+<script src="jQueryAssets/jquery-1.11.1.min.js"></script>
+<script src="jQueryAssets/jquery.ui-1.10.4.tabs.min.js"></script>
+</head>
+
+<body>
+<header></header>
+<wrapper></wrapper>
+<div id="Tabs1">
+  <ul>
+    <li> <a href="#tabs-1"><img src="airplane.png" alt="" width="499" height="426"><br>Flights</a></li>
+    
+    <li><a href="#tabs-2"><img src="hotel.png" alt="" width="565" height="564"><br>Hotels</a></li>
+    
+    <li><a href="#tabs-3"><img src="car.png" alt="" width="542" height="314"><br>
+    Cars</a></li>
+	         
+    <li><a href="#tabs-4"><img src="cruise.png" alt="" width="540" height="376"><br>Cruises</a></li>
+	          
+    <li><a href="#tabs-5"><img src="location.png" alt="" width="526" height="570"><br>Places</a></li>
+  </ul>
+  <div id="tabs-1">
+   <input type="text" class="travelto" placeholder="Where to?">  
+	<input type="date" class="date"><input type="date" class="date">
+    <select>
+	
+	    <option value="0" selected="SELECTED">Number of Travelers</option>
+	    <option value="1">1</option>
+	    <option value="2">2</option>
+	    <option value="3">3</option>
+	    <option value="4">4</option>
+	    <option value="5+">5+</option>
+      </select>
+	  <input type="submit" class="submit" value="Find your Flight">
+  </div>
+  <div id="tabs-2">
+    <p>Content 2</p>
+  </div>
+  <div id="tabs-3">
+    <p>Content 3</p>
+  </div>
+  <div id="tabs-4">
+    <p>Content 4</p>
+  </div>
+  <div id="tabs-5">
+    <p>Content 5</p>
+  </div>
+</div>
+<footer>© 2024, Sabrina Linhares. This is a fictitious web page created solely for the purpose of education and training. All products and people associated with this web page are also fictitious. Any resemblance to real brands, products, or people is purely coincidental. Information provided about the product is also fictitious and should not be construed to be representative of actual products on the market in a similar product category.</footer>
+<script type="text/javascript">
+$(function() {
+	$( "#Tabs1" ).tabs(); 
+});
+</script>
+</body>
+</html>
