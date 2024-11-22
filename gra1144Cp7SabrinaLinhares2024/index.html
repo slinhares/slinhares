@@ -5,25 +5,25 @@
 <title>Come To Brazil | Sabrina Linhares 2024</title>
 <style>
 body {
-    background-image: url(RioSunset.jpeg);
-    background-color: #000000;
+    background-color: rgba(5,105,59,0.46);
     background-repeat: no-repeat;
     background-position: center top;
     background-size: cover;
     margin: 0;
-    background-position: center 100px;
+    background-position: center top;
+    position: relative;
+    background-image: url(Riomorning.jpeg);
 	}
 
 
 header {
-    height: 100px;
-    background-color: rgba(255,255,255,0.75);
+    height: 50px;
 }
-wrapper {
+#Tabs1 {
     width: 1200px;
-    margin: auto;
     display: block;
     background-color: rgba(0,0,0,0.50);
+    margin: 100px auto;
 }
 footer {
     width: 100%;
@@ -41,12 +41,16 @@ footer {
 #Tabs1 ul li {
     padding-top: 8px;
     text-align: center;
+    display: inline-block;
+    float: none;
 }
 #Tabs1 ul {
     background-color: transparent;
     border: none;
     background-image: none;
+    margin: auto;
     display: block;
+    text-align: center;
 }
 #Tabs1 {
     background-image: none;
@@ -75,7 +79,7 @@ input ,select{
     background-repeat: no-repeat;
     background-size: 18px auto;
 }
-.date  ,select,.submit{
+.date   ,select,.submit,.carsearch{
     width: 48%;
     margin-right: 16px;
 }
@@ -107,6 +111,9 @@ input ,select{
     background-position: 20px center;
     background-size: 20px auto;
 }
+.cometo {
+    margin-left: 40%;
+}
 </style>
 <link href="jQueryAssets/jquery.ui.core.min.css" rel="stylesheet" type="text/css">
 <link href="jQueryAssets/jquery.ui.theme.min.css" rel="stylesheet" type="text/css">
@@ -116,8 +123,7 @@ input ,select{
 </head>
 
 <body>
-<header></header>
-<wrapper></wrapper>
+<header><img src="cometo.png" alt="" width="446" height="108" class="cometo"/></header>
 <div id="Tabs1">
   <ul>
     <li> <a href="#tabs-1"><img src="airplane.png" alt="" width="499" height="426"><br>Flights</a></li>
@@ -142,7 +148,7 @@ input ,select{
 	    <option value="3">3</option>
 	    <option value="4">4</option>
 	    <option value="5+">5+</option>
-      </select>
+    </select>
 	  <input type="submit" class="submit" value="Find your Flight">
   </div>
   <div id="tabs-2">
@@ -156,7 +162,7 @@ input ,select{
 	    <option value="3">3</option>
 	    <option value="4">4</option>
 	    <option value="5+">5+</option>
-      </select>
+    </select>
   </div>
   <div id="tabs-3">
     <input type="text" class="carsearch" placeholder="Enter pick-up location or zip code">
